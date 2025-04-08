@@ -8,9 +8,9 @@ def split_audio(input_audio, output_folder, clip_length=5000):
         os.makedirs(output_folder)
     
     # Calcule amount of clips
-        num_clips = len(audio) // clip_length
+    num_clips = len(audio) // clip_length
     
-        filename = os.path.splitext(os.path.basename(input_audio))[0]
+    filename = os.path.splitext(os.path.basename(input_audio))[0]
     for i in range(num_clips + 1):
         start_time = i * clip_length
         end_time = start_time + clip_length
@@ -33,6 +33,6 @@ for file in os.listdir(input_folder):
     file_path = os.path.join(input_folder, file)
 
     if file.lower().endswith('.wav'):
-        input_audio = file
+        input_audio = file_path
         split_audio(input_audio, output_folder)
 

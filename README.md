@@ -18,7 +18,8 @@ The CB is made up by 8555 audio files with transcripts. 2447 of those files (28.
 1317 audio files were selected at random from the original 8555 while trying to keep a balance between male and female speakers, resulting in 778 audio files with female speakers and 539 audio files from male speakers. 
 
 ## Maya
-T'aantsil [3]
+T'aantsil (https://taantsil.com.mx/) [3].
+The T’aanTsil is an audio corpus in the Yucatec Maya language, created with the aim of supporting the development of speech technologies for indigenous languages. It is part of a broader effort to document and preserve native languages through digital resources.
 
 
 Yucatec Maya DoReCo (https://sharedocs.huma-num.fr/wl/?id=OEm80dNUe88cfpejRnhmFE5IIFeGdCp9) [4]. 
@@ -63,7 +64,7 @@ base_model = ResNet152(weights='imagenet', include_top=False, input_shape=(224, 
 
 # Referencias
 [1] Mukherjee, H., Ghosh, S., Sen, S., Sk Md, O., Santosh, K. C., Phadikar, S., & Roy, K. (2019). Deep learning for spoken language identification: Can we visualize speech signal patterns?. Neural Computing and Applications, 31, 8483-8501. 
-[2] Ciempiess-unam. Recuperado de https://ciempiess.org/downloads 
-[3] T’aantsil. Recuperado de https://taantsil.com.mx/ 
+[2] Ciempiess-unam. Retrieved from https://ciempiess.org/downloads 
+[3] T’aantsil. Retrieved from https://taantsil.com.mx/ 
 [4] Skopeteas, Stavros, Amedee Colli Colli, Daniela Schellenbach, Carolin Brokmann, Florian Fischer and Maya Gálvez Wimmelmann. 2024. Yucatec Maya DoReCo dataset. In Seifart, Frank, Ludger Paschen and Matthew Stave (eds.). Language Documentation Reference Corpus (DoReCo) 2.0. Lyon: Laboratoire Dynamique Du Langage (UMR5596, CNRS & Université Lyon 2). (https://doi.org/10.34847/nkl.9cbb3619). 
 [5] Jeff Prosise (2021). Deep-Learning [Software]. GitHub. https://github.com/jeffprosise/Deep-Learning/blob/master/Audio%20Classification%20(CNN).ipynb 
